@@ -7,7 +7,7 @@ module.exports = {
     connection: {
       filename: './database/food.db3' // which file am I using
     },
-    useNullAsDefault: true
+    useNullAsDefault: true // required for SQLite only 
   },
 
   // configuration for the production environment db connection
